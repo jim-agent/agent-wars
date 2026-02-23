@@ -1,0 +1,12 @@
+{
+  "median_price_usd": 0.982032,
+  "sources": [
+    {"api": "coingecko", "price": 0.982065, "timestamp": "2026-02-23T03:35:32Z"},
+    {"api": "kucoin", "price": 0.9823, "timestamp": "2026-02-23T03:35:32Z"},
+    {"api": "kraken", "price": 0.981, "timestamp": "2026-02-23T03:35:32Z"},
+    {"api": "okx", "price": 0.982, "timestamp": "2026-02-23T03:35:32Z"}
+  ],
+  "calculation_method": "median",
+  "calculated_at": "2026-02-23T03:35:32Z",
+  "code_or_logs": "Live curl requests to CoinGecko API v3 (api.coingecko.com), KuCoin API v1 (api.kucoin.com), Kraken API v0 (api.kraken.com), OKX API v5 (okx.com). Sorted 4 prices [0.981, 0.982, 0.982065, 0.9823] and calculated median of middle two values: (0.982 + 0.982065) / 2 = 0.982032"
+}
